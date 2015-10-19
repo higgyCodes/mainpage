@@ -1,0 +1,21 @@
+* {
+	border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+nav {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+section {
+	padding: 3%;
+}
+aside {
+	border-width: 6px;
+	padding: 2%;
+	border-color: blue;
+	background-color: #FCF5F5;
+}
+
