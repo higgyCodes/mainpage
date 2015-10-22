@@ -6,16 +6,13 @@
     border-top-color: red;
 }
 
-header {
-	position: fixed;
-	padding-bottom: 9px;
-	top: 0px;
-	background-color: white;
+nav {
+	font-size: 12pt;
 }
 
 img {
-	height:100%;
-	position: fixed;
+	width: 100px;
+	height: 200px;
 }
 
 section {
