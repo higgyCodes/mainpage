@@ -32,38 +32,32 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      	<ul class="nav navbar-nav">
-            <li><a ui-sref="home">HOME</a></li>
-            <li><a ui-sref="about">ABOUT UV</a></li>
-			<li><a ui-sref="data">CENTRALIZED DATA</a></li>
-			<li><a ui-sref="contact">CONTACT</a></li>
-			<li><a ui-sref="member">MEMBER LOGIN</a></li>
-       	</ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      	<ul class="nav navbar-nav">
+	            <li><a ui-sref="home">HOME</a></li>
+	            <li><a ui-sref="about">ABOUT UV</a></li>
+				<li><a ui-sref="data">CENTRALIZED DATA</a></li>
+				<li><a ui-sref="contact">CONTACT</a></li>
+				<li><a ui-sref="member">MEMBER LOGIN</a></li>
+	       	</ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
 
-
-
-
-
-
-			
-				<ul class="nav col-xs-12">
-
-				</ul>
-
-				<div class="row" id="main">
-					<section class="col-xs-8">
-						<div ui-view></div>
-					</section>
-				</div>
-
+<div class="container-fluid">
+	<div class="row">
+		<aside class="hidden-xs hidden-sm col-md-4">
+			<div class="row">
+				<img class="imgcapitol" src="assets/pictures/statecapaside.jpg" alt="">
 			</div>
-		</div>
+		</aside>
+		<div class="hidden-md hidden-lg col-sm-1 col-xs-1"></div>
+			<section class="col-md-6 col-sm-8 col-xs-8">
+				<div ui-view></div>
+			</section>
+		<div class="hidden-md hidden-lg col-sm-1 col-xs-1"></div>
 	</div>
-	
+</div>
 	<footer>
 
 	</footer>
