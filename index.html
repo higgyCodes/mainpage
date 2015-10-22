@@ -6,49 +6,47 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="description" content="Demo project">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
 <!-- Angular Script -->
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
 	<!--Styling-->
 	<link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="styling/main.css">
-	
 	<!-- Jquery -->
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
 	</head>
+
 <body ng-app="utahVotes">
-	<header class="row">
-		<div class="col-xs-2"></div>
-		<H1 class="col-xs-10">Utah Votes Title</H1>
-	</header>
-	<nav class="row">
-		<span class="col-xs-2">About Us</span>
-		<span class="col-xs-2">Getting Involved</span>
-		<span class="col-xs-2">Centralized Data</span>
-		<span class="col-xs-2">Coordinated Campaigns</span>
-		<span class="col-xs-2">Collaborative Strategy</span>
-		<span class="col-xs-2">Contact Us</span>
-		<span class="col-xs-2">Member Login</span>
-		
 
-	</nav>
+	<div class="fixedbox">
+		<div class="bigbox" class="row">
+			
+			<aside id="side" class="col-md-3">
+				<img src="assets/pictures/statecapaside.jpg" alt="">
+			</aside>
 
-	<div class="row">
-		<div class="col-xs-1" ></div>
-		<section class="col-xs-8">
-			<p>This is a Section</p>
-		</section>
-		<aside class="col-xs-3">
-			<div>This is an aside</div>
-			<div> This is another aside </div>
-			<div> This is another aside </div>
-			<div> This is another aside </div>
-			<div> This is another aside </div>
-		</aside>
+			<div class="col-md-9">
+			<img class="col-md-3" src="assets/pictures/UVlogo.jpg" alt="UV">
+				<ul class="nav col-xs-12">
+					<li class="col-xs-2"><a ui-sref="home">HOME</a></li>
+					<li class="col-xs-2"><a ui-sref="about">ABOUT UV</a></li>
+					<li class="col-xs-2"><a ui-sref="data">CENTRALIZED <br />DATA</a></li>
+					<li class="col-xs-2"><a ui-sref="contact">CONTACT</a></li>
+					<li class="col-xs-2"><a ui-sref="member">MEMBER LOGIN</a></li>
+				</ul>
+
+				<div class="row" id="main">
+					<section class="col-xs-8">
+						<div class="test" ui-view></div>
+					</section>
+				</div>
+
+			</div>
+		</div>
 	</div>
+	
 	<footer>
-		<p> THis is a footer</p>
+
 	</footer>
 
 </body> 
