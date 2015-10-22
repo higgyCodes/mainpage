@@ -1,23 +1,31 @@
+/** {
+	border-color: black;
+	border-style: solid;
+	border-width: 2px
+} */
 
 nav {
 	font-size: 12pt;
-}
-
-img {
-	width: 100px;
-	height: 200px;
+	height: 120px;
 }
 
 img.imgcapitol {
-	height: 800px;
+	height: 700px;
 	width: 300px;
 	padding: 0px;
 	margin: 0px;
 	border: 0px;
+	overflow: hidden;
+	top: 50px;
+	left: 0px;
+	position: fixed
+
 }
 
 section {
 	padding: 3%;
+	height: 500px;
+	top: 150px;
 }
 
 a:link { 
@@ -55,6 +63,7 @@ span {
 	border-top-color: red;
 }
 
-aside#side {
-	padding: 0;
+aside {
+	position: relative;
+	height: 100%;
 }
