@@ -1,7 +1,19 @@
-* {
+*/* {
 	border-color: black;
 	border-style: solid;
 	border-width: 2px
+} */
+
+a {
+	color: black;
+}
+
+p {
+	font-size: 24pt;
+}
+
+h1 {
+	color: #C0323A;
 }
 
 nav {
@@ -9,13 +21,77 @@ nav {
 	height: 120px;
 }
 
+nav.navbar.navbar-default.navbar-fixed-top {
+	top: 0px;
+}
+
 .navbar-brand {
 	position: relative;
 	height: 120px;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: #C0323A;
+    background: #C0323A;
+
+}
+
+.navbar-default .navbar-toggle:hover {
+    background: #C0323A;
+    
+}
+
+/* Navbar Coloring */
+
+.navbar-default .navbar-nav>li>a {
+ 	color: black;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+ 	background: yellow;
+ 	color: black;
+ 	top: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:enabled {
+ 	background: white;
+ 	color: black;
+}
+
+li {
+	margin-left: 10px;
+	margin_right: 10px;
+}
+
 ul.nav {
+	position: absolute;
 	bottom: 0px;
+	right: 40px;
+}
+
+div.collapse {
+	background-color: white;
+	border-color: white;
+	color: black;
+	top: 0px;
+
+}
+
+div.container-fluid {
+	background-color: white;
+	border-bottom: 2px, solid, blue;
+}
+div {
+	color: black
+}
+
+div.row {
+	position: relative;
+	top: 120px;
+	border-top-style: solid;
+	border-top-color: #26264A;
+	border-top-width: 6px;
 }
 
 img.imgcapitol {
@@ -31,11 +107,20 @@ img.imgcapitol {
 }
 
 
+
 section {
+	position: relative;
+	top: 15px;
 	padding: 3%;
 	height: 500px;
-	top: 150px;
+}
+
+div.textbody {
+	position: relative;
+	height: 400px;
 	overflow: scroll;
+	top: 10px;
+	left: 15px;
 }
 
 a:link { 
@@ -52,7 +137,7 @@ a:link {
 div#textbody {
 	font-family: helvetica;
 	font-size: 24pt;
-	overflow: scroll;
+	
 	border-style: solid;
  	border-color: black;
  	border-width: 2px;
@@ -73,11 +158,29 @@ span {
 	border-top-color: red;
 }
 
+
+
 aside {
 	position: relative;
 	height: 100%;
 }
 
-p {
-	font-size: 24pt;
+footer.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   border-top-style: solid;
+   border-top-color: #26264A;
+   border-width: 4px;
+   background: #C5C5D7;
 }
+
+/*
+Lighter Grey = #C5C5D7
+Rose = #FCF5F5
+Navy Blue = #26264A
+Red = #C0323A
+Grey = #9292A4
+*/
